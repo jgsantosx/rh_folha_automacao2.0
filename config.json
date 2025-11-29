@@ -1,0 +1,28 @@
+{
+  "valor_hora_padrao": 20.0,
+  "percentual_hora_extra": 0.50,
+  "desconto_falta_por_dia": 1.0,
+  "usar_valor_hora_da_planilha": true,
+
+  "formato_data": "YYYY-MM-DD",
+
+  "diretorios": {
+    "input": "data/input/",
+    "output": "data/output/",
+    "temp": "data/temp/"
+  },
+
+  "email": {
+    "habilitar_envio": false,
+    "servidor_smtp": "",
+    "porta": 587,
+    "usuario": "",
+    "senha": "",
+    "destinatarios": []
+  },
+
+  "log": {
+    "habilitar_log": true,
+    "arquivo_log": "system.log"
+  }
+}
