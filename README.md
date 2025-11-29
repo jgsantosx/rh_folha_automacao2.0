@@ -10,24 +10,12 @@ A aplicação lê uma planilha Excel com os dados dos funcionários, realiza cá
 
 É ideal para pequenas empresas, escritórios de RH ou uso pessoal para organização da folha.
 
-📂 Estrutura do Projeto
-rh_folha_automacao/
-│
-├── data/
-│ ├── input/
-│ │ └── planilha_exemplo.xlsx
-│ └── output/
-│ └── AAAA_MM/ ← gerado automaticamente
-│
-├── src/
-│ ├── config.py
-│ ├── loader.py
-│ ├── processor.py
-│ ├── exporter.py
-│ └── main.py
-│
-├── requirements.txt
-└── README.md
+
+
+<img width="499" height="370" alt="image" src="https://github.com/user-attachments/assets/cf980397-9dff-4514-aaab-280be7d9e80c" />
+
+
+
 
 📥 Entrada Esperada (Planilha)
 
@@ -176,6 +164,12 @@ O Exporter usa apenas as colunas existentes no DataFrame final, então:
 Se você remover uma coluna no Loader → ela some automaticamente do Excel e do PDF
 
 Não é necessário alterar nada em exporter.py
+
+APARECE ASSIM:
+
+
+<img width="1178" height="783" alt="Captura de tela 2025-11-28 225600" src="https://github.com/user-attachments/assets/da87460b-bb08-431a-b5ba-893ea45591d2" />
+
 
 📌 Resumo final
 
